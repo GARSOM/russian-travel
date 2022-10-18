@@ -1,0 +1,10 @@
+.place-middle {
+    display: inline-flex;
+}
+
+@media screen and (max-width:320px) {
+    .place-middle {
+        margin: 0;
+        display: unset;
+    }
+}

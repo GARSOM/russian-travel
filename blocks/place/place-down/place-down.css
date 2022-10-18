@@ -1,0 +1,21 @@
+.place-down {
+    margin-left: 40px;
+}
+
+@media screen and (max-width:1024px) {
+    .place-down {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .place-down {
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place-down {
+        margin-left: 0px;
+    }
+}
