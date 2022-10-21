@@ -1,0 +1,26 @@
+.cover__background {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    background: url('/images/cover-trains.jpg') no-repeat;
+    background-size: cover;
+    color: inherit;
+    z-index: 1; 
+   }
+   
+   .cover__background::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #2A2C2F;
+    opacity: .3;
+    z-index: -1;
+    transition: opacity .4s ease;
+   }
+   
+   .cover__background:hover::after {
+    opacity: 0.8;
+   }
