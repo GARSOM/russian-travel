@@ -1,6 +1,9 @@
 .header__logo {
   max-width: 176px;
+  max-height: 52px;
   margin: 28px 0 0 48px;
+  object-fit: contain;
+  display: block;
 }
 
 .header__logo:hover {

@@ -1,10 +1,9 @@
 .place__link {
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #fff;
-  border-bottom: 1px solid #fff;
   transition: opacity .2s ease-in-out;
 }
 

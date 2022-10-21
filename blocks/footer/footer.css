@@ -6,10 +6,6 @@
     flex-direction: row;
 }
 
-@media screen and (max-width:1024px) {
-    .footer {}
-}
-
 @media screen and (max-width:768px) {
     .footer {
         margin: 0 24px 24px 24px;
@@ -18,10 +14,7 @@
 
 @media screen and (max-width:320px) {
     .footer {
-        display: inline-block;
         flex-direction: column;
-        margin: 0 118px 16px 24px;
-        width: 186px;
-        height: 310px;
+        margin-bottom: 24px;
     }
 }

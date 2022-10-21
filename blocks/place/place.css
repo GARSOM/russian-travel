@@ -34,13 +34,6 @@
     }
 }
 
-@media screen and (max-width: 700px) {
-    .place {
-        grid-template-columns: 1fr;
-        gap: 32px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .place:not(:first-child) {
         margin: 51px 0 0 0;
