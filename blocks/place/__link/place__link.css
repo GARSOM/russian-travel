@@ -1,20 +1,19 @@
 .place__link {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    transition: opacity .2s ease-in-out;
-   }
-   
-   .place__link:hover {
-    opacity: 0.8;
-   }
-   
-   @media screen and (max-width:320px) {
-    .place__link {
-      font-size: 5.6vw;
-    }
-   }
-   
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  transition: opacity .2s ease-in-out;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width:320px) {
+  .place__link {
+    font-size: 5.6vw;
+  }
+}
