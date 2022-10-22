@@ -20,7 +20,7 @@
 
 @media screen and (max-width:768px) {
     .place {
-        grid-template-columns: 1fr;
+        grid-template-columns: 340px 1fr;
         gap: 32px;
     }
 
@@ -29,9 +29,14 @@
     }
 }
 
+@media screen and (max-width:572px) {
+    .place {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place {
-        max-width: 100%;
         grid-template-columns: 1fr;
         gap: 32px;
     }

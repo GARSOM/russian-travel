@@ -30,7 +30,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/place/__paragraph_last/place__paragraph_last.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/intro/__span/intro__span.css);
