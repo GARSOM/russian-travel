@@ -28,13 +28,18 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:518px) {
     .place {
-        grid-template-columns: 1fr;
-        gap: 32px;
+        grid-template-columns: 1fr 1fr;
     }
 
-    .place:not(:first-child) {
-        margin: 51px 0 0 0;
+    @media screen and (max-width: 320px) {
+        .place {
+            grid-template-columns: 1fr;
+            gap: 32px;
+        }
+
+        .place:not(:first-child) {
+            margin: 51px 0 0 0;
+        }
     }
-}
