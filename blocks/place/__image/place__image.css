@@ -3,13 +3,15 @@
     display: block;
     object-fit: contain;
 }
+
+
 @media screen and (max-width:650px) {
     .place__image {
         width: 340px;
     }
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:320px) {
     .place__image {
-        width: 240px;
+        width: 320px;
     }
 }
