@@ -29,7 +29,7 @@
 }
 @media screen and (max-width:650px) {
     .place {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 @media screen and (max-width: 320px) {
