@@ -3,3 +3,8 @@
     display: block;
     object-fit: contain;
 }
+@media screen and (max-width:650px) {
+    .place__image {
+        width: 340px;
+    }
+}
