@@ -8,3 +8,8 @@
         width: 340px;
     }
 }
+@media screen and (max-width:450px) {
+    .place__image {
+        width: 240px;
+    }
+}
